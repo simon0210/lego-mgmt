@@ -9,7 +9,7 @@
       "outDir": "dist/public",
       "assets": [
         "assets",
-        "assets/favicon.ico"
+        "assets/favicon.png"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -19,14 +19,11 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "../node_modules/font-awesome/css/font-awesome.min.css",
-        "styles.scss"
+        "scss/style.scss"
       ],
       "scripts": [
-        "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/tether/dist/js/tether.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+        "../node_modules/chart.js/dist/Chart.bundle.min.js",
+        "../node_modules/chart.js/dist/Chart.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

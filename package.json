@@ -11,7 +11,7 @@
     "start": "node dist/server/app.js",
     "predev": "tsc -p server",
     "dev": "concurrently \"mongod\" \"ng serve -pc proxy.conf.json --open\" \"tsc -w -p server\" \"nodemon dist/server/app.js\"",
-    "prod": "concurrently \"mongod\" \"ng build -aot -prod && tsc -p server && node dist/server/app.js\"",
+    "prod": "concurrently \"ng build -aot -prod && tsc -p server && node dist/server/app.js\"",
     "test": "ng test",
     "lint": "ng lint",
     "lintbe": "tslint server/**/**.ts{,x}",
@@ -41,7 +41,20 @@
     "morgan": "^1.8.2",
     "rxjs": "^5.4.1",
     "tether": "1.4.0",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+
+    "angular-calendar": "0.17.1",
+    "angular2-datatable": "0.6.0",
+    "angular2-ladda": "1.2.1",
+    "angular2-text-mask": "8.0.1",
+    "angular2-toaster": "4.0.0",
+    "chart.js": "2.6.0",
+    "dragula": "3.7.2",
+    "moment": "2.18.1",
+    "ngx-bootstrap": "1.7.1",
+    "ng2-charts": "1.6.0",
+    "ng2-dragula": "1.5.0",
+    "ng2-select": "1.2.0"
   },
   "devDependencies": {
     "@angular/cli": "1.2.6",
