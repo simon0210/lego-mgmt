@@ -31,4 +31,4 @@ The frontend is generated with [Angular CLI](https://github.com/angular/angular-
 [localhost:4200](http://localhost:4200) 포트로 브라우저가 변경 사항을 감지하며 프론트 엔드 또는 백엔드 서버의 소스가 변경되면 브라우저는 자동으로 새로고침 된다.
 
 ### 운영환경
-`npm run prod`: run the project with a production bundle and AOT compilation listening at [localhost:3000](http://localhost:3000) 
+`npm run prod`: [localhost:3000](http://localhost:3000) 프로덕션 환경용 번들링 및 AOT 빌드후 실행.
