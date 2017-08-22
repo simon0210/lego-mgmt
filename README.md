@@ -5,13 +5,13 @@ The frontend is generated with [Angular CLI](https://github.com/angular/angular-
 
 프론트 엔드는 [Angular CLI](https://github.com/angular/angular-cli) 로 generate 하였으며 백엔드는 [TypeScript](https://www.typescriptlang.org) 기반으로 기반으로 작성
 
-[MEAN stack](https://en.wikipedia.org/wiki/MEAN_(software_bundle)):
+## [MEAN stack](https://en.wikipedia.org/wiki/MEAN_(software_bundle)):
 * [**M**ongoose.js](http://www.mongoosejs.com) ([MongoDB](https://www.mongodb.com)): database - 구현예정
 * [**E**xpress.js](http://expressjs.com): backend framework
 * [**A**ngular 2+](https://angular.io): frontend framework
 * [**N**ode.js](https://nodejs.org): runtime environment
 
-다른 사용 기술
+## 다른 사용 기술
 * [Angular CLI](https://cli.angular.io): frontend scaffolding
 * [Bootstrap](http://www.getbootstrap.com): layout and styles
 * [Font Awesome](http://fontawesome.io): icons
