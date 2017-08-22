@@ -38,8 +38,6 @@ db.once('open', () => {
 });
 */
 
-console.log('Connected to MongoDB');
-
 setRoutes(app);
 
 app.get('/*', function(req, res) {
@@ -47,7 +45,7 @@ app.get('/*', function(req, res) {
 });
 
 app.listen(app.get('port'), () => {
-  console.log('Angular Full Stack listening on port ' + app.get('port'));
+  console.log('Lego Mgmt listening on port ' + app.get('port'));
 });
 
 export { app };

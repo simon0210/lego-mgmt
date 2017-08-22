@@ -1,9 +1,9 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { NotFoundComponent } from './not-found/not-found.component';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {NotFoundComponent} from './not-found/not-found.component';
 
 // Layouts
-import { FullLayoutComponent } from './layouts/full-layout.component';
+import {FullLayoutComponent} from './layouts/full-layout.component';
 
 const routes: Routes = [
   {
@@ -22,15 +22,20 @@ const routes: Routes = [
         path: 'dashboard',
         loadChildren: './dashboard/dashboard.module#DashboardModule'
       },
+      {
+        path: 'components',
+        loadChildren: './components/components.module#ComponentsModule'
+      },
     ]
   },
-  { path: 'notfound', component: NotFoundComponent },
-  { path: '**', redirectTo: '/notfound' },
+  {path: 'notfound', component: NotFoundComponent},
+  {path: '**', redirectTo: '/notfound'},
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
 
-export class RoutingModule {}
+export class RoutingModule {
+}
