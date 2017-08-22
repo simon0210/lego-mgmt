@@ -11,7 +11,7 @@ The frontend is generated with [Angular CLI](https://github.com/angular/angular-
 * [**A**ngular 2+](https://angular.io): frontend framework
 * [**N**ode.js](https://nodejs.org): runtime environment
 
-## 다른 사용 기술
+## 사용 라이브러리
 * [Angular CLI](https://cli.angular.io): frontend scaffolding
 * [Bootstrap](http://www.getbootstrap.com): layout and styles
 * [Font Awesome](http://fontawesome.io): icons
